@@ -1,0 +1,58 @@
+body {
+  background-color: #333;
+  font-family: "Poppins";
+}
+
+hr {
+  width: 15%;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e1b723;
+  opacity: 100%;
+}
+
+.navbar-custom {
+  background-color: #222;
+  color: #fff;
+}
+
+.main {
+  margin-top: 75px;
+}
+
+.main .title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 78px;
+}
+
+.main .text {
+  color: #fff;
+  margin: 25px;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.projects {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.projects .title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.projects .text {
+  color: #fff;
+  margin: 25px;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
