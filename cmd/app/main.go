@@ -10,6 +10,7 @@ import (
 type Blog struct {
 	Title   string    `json:"title"`
 	Content string    `json:"content"`
+	Picture string    `json:"picture"`
 	Date    time.Time `json:"date"`
 }
 
@@ -29,9 +30,19 @@ func ReturnBlogs(w http.ResponseWriter, _ *http.Request) {
 	b, _ := json.Marshal(Blogs{
 		Blogs: []Blog{
 			{
-				Title:   "Title",
+				Title:   "Why you should invest into sifchain",
+				Content: "Sifchain is good investment",
+				Picture: "https://pbs.twimg.com/profile_banners/1291413585189433344/1633944414/1500x500",
+
+				Date: time.Date(2023, time.March,
+					18, 21, 34, 01, 0, time.UTC),
+			},
+			{
+				Title:   "Why Osmosis sucks",
 				Content: "Hello",
-				Date:    time.Now(),
+				Picture: "https://pbs.twimg.com/profile_banners/1357133940109103104/1648318625/1500x500",
+
+				Date: time.Now(),
 			},
 		},
 	})

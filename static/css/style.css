@@ -34,18 +34,18 @@ hr {
   font-size: 24px;
 }
 
-.projects {
+.below {
   margin-top: 100px;
   padding: 20px;
 }
 
-.projects .title {
+.below .title {
   color: #fff;
   font-weight: bold;
   font-size: 64px;
 }
 
-.projects .text {
+.below .text {
   color: #fff;
   margin: 25px;
   font-weight: lighter;
